@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mwanga Usiku/Empowering women in Kenya through vocational skills.</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <header>
+        <nav>
+            <ul>
+                <li><button class="toggle-section" data-target="home">Home</button></li>
+              <li><button class="toggle-section" data-target="about">About</button></li>
+                <li><button class="toggle-section" data-target="shop">Shop</button></li>
+                <li><button class="toggle-section" data-target="contact">Contact</button></li>
+                <li><button class="toggle-section" data-target="get-involved">Get involved</button></li>
+            
+                
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div id="home" class="content-section" style="display: none;">
+        <div class="image-container">
+            <img src="images/home2.jpg" alt="home2-image">
+            <div id="typing"> </div>
+        </div>
+        <div class="glow-effect"></div>
+    </div>
+  
+<div id="about" class="content-section"style="display: none;">
+<h2>About Us</h2>
+ <p><strong>Mwanga Usiku</strong>, meaning "A Light in the Night" in Swahili, embodies our vision to uplift
+     struggling women and girls. We aim to empower them by teaching practical skills, providing business
+    opportunities, and sharing the hope of the One True Light that guides them through their darkest moments.
+    Our mission is to encourage healing through creativity, fostering a desire for each individual to recognize
+    their God-given potential.</p>
+
+       <p>When girls are not empowered with vocational skills, they often face limited career prospects, leading to
+        financial dependency and vulnerability. Studies have shown that un empowered women are at greater risk of
+        poverty, domestic violence, and exploitation. By providing access to skill-building opportunities, we can
+        help break this cycle of neglect and ensure that women and girls have the means to support themselves and
+        their families. Organizations worldwide emphasize the importance of education and skill development in
+        reducing gender inequalities and improving overall community health and wealth. Together, we can create a
+        brighter future for women and girls, allowing them to thrive and contribute meaningfully to society.
+        </p>
+        <p>At Mwanga Usiku, we believe in empowering women with skills and providing them with sewing machines, as well
+            as teaching girls essential skills like hairdressing, stitching, fashion design, and technical skills. This
+            approach is crucial for fostering self-employment opportunities. Empowering women and girls not only equips
+            them for the job market but also promotes independence and confidence. By providing access to skill-building
+            opportunities, we can help break the cycle of neglect and ensure that women and girls have the means to
+            support themselves and their families.
+        </p>
+ <p>Founded by Cecilia Robreno in 2018.</p>
+    </div>
+
+    <div id="shop" class="content-section" style="display: none;">
+        <h2>Coming soon.</h2>
+    </div>
+    
+<div id="contact" class="content-section" style="display: none;">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, please reach out to us!</p>
+    <form id="contact-form" onsubmit="handleFormSubmit(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Your Email">
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</div>
+<div id="get-involved" class="content-section" style="display: none;">
+    <h2>Get involved</h2>
+ <p> Your generous donation helps provide vocational training for young women, giving them the skills they need to
+        succeed.
+        By contributing, you will help fund sewing machines that enable women to start their own businesses, create
+        employment,
+        and become self-sustainable.
+
+        Every donation, no matter the size, makes a difference in the lives of these women. Together, we can build a
+        brighter
+        future, where women are empowered and equipped to support themselves and their families.
+
+        Donate today and be a part of their journey towards independence and success.
+    </p>
+
+    <h3>Make a Donation</h3>
+
+      
+        <p>Your contribution helps empower women. Please complete the form to proceed.</p>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="mwangausiku1@gmail.com">
+            <input type="hidden" name="item_name" value="Support Vocational Training">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="no_recurring" value="0">
+            <label for="donor-name">Full Name:</label>
+            <input type="text" id="donor-name" name="donor-name" required>
+
+            <label for="donor-email">Email Address:</label>
+            <input type="email" id="donor-email" name="donor-email" required>
+
+            <label for="donation-amount">Donation Amount:</label>
+            <select id="donation-amount" name="amount" required>
+                <option value="10.00">$10</option>
+                <option value="25.00">$25</option>
+                <option value="50.00">$50</option>
+                <option value="100.00">$100</option>
+                <option value="custom">Custom Amount</option>
+            </select>
+    
+            <label for="custom-amount" class="hidden">Custom Amount:</label>
+            <input type="number" id="custom-amount" name="custom-amount" min="1" style="display: none;" placeholder="Enter custom amount">
+
+            <button type="submit"> Donate Now </button>
+        </form>
+    </div>
+</div>
+
+                    </main>
+ <script src="js/script.js"></script>
+                </body>
+        
+                </html>
+        
